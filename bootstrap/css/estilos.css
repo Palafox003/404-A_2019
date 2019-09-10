@@ -19,6 +19,7 @@ body{
 .navbar{
 	height: 80px !important;
 	background-color: #535151 !important;
+	color: white;
 }
 .jumbotron{
 	width: 50%;
@@ -42,4 +43,23 @@ body{
 	background-color: #535151;
 	color: white;
 	padding: 10px;
+}
+.cat-img{
+	border-radius: 50%
+}
+.cat-img:hover{
+	transform:rotate(50deg) scale(1.3);
+	transition:all 1s ease-in;
+	cursor: pointer;
+}
+.cont-img{
+	overflow: hidden;
+}
+#btn-youtube{
+	font-size: 1.5em;
+	color: white;
+}
+#btn-youtube:hover{
+	color: red;
+	background-color: white;
 }
